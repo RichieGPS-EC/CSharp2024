@@ -11,30 +11,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //variables
-            string guardarNombre;
-            string guardarApellido;
-            string guardarCiudad;
-            int guardarEdad;
+            Console.WriteLine("Mensaje desde el main");
 
-            //-------------------------------------
-            Console.WriteLine("Ingresa tu nombre");
-            guardarNombre = Console.ReadLine();
-            Console.WriteLine("Ingresa tu apellido");
-            guardarApellido = Console.ReadLine();
-            Console.WriteLine("Ingresa tu ciudad");
-            guardarCiudad = Console.ReadLine();
-            Console.WriteLine("Ingresa tu edad");
-            guardarEdad = int.Parse(Console.ReadLine());
-
-
-            Console.WriteLine("--------------------------------");
-
-            Console.WriteLine($"Hola tu nombre completo es: {guardarNombre} {guardarApellido} Tienes {guardarEdad} y vives en {guardarCiudad}");
-
-
-
+            sumaNumeros(2, 3);
         }
+
+        static void sumaNumeros(int num1, int num2)
+        {
+            Console.WriteLine("La suma de los números es: " + (num1+num2);
+        }
+
+
     }
 
 }
