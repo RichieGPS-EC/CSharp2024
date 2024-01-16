@@ -11,15 +11,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mensaje desde el main");
+            //Console.WriteLine("Mensaje desde el main");
 
-            sumaNumeros(2, 3);
+            //sumaNumeros(2, 3);
         }
 
-        static void sumaNumeros(int num1, int num2)
-        {
-            Console.WriteLine("La suma de los números es: " + (num1+num2);
-        }
+        //static void sumaNumeros(int num1, int num2)
+        //{
+        //    Console.WriteLine("La suma de los números es: " + (num1+num2);
+        //}
 
 
     }
